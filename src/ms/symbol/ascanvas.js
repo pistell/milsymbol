@@ -13,7 +13,7 @@ export default function asCanvas(ratio) {
     } else {
       // If Path2D exists we need to check if it is broken
       var canv = document.createElement("canvas");
-      canv.widht = 1;
+      canv.width = 1;
       canv.height = 1;
       var _ctx = canv.getContext("2d");
       // Draw an SVG path to the canvas...
